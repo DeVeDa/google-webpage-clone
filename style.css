@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+}
+.top{
+    
+    top: 0px;
+    align-items: center;
+    display: flex;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+}
+
+.top2{
+    display: inline-block;
+    flex-grow: 1;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+ .whole{
+    display: flex;
+    padding-left: 0;
+    float: right;
+    box-sizing: border-box;    
+    line-height: normal;
+    align-items: center;
+    
+
+ }
+ .wh2{
+     display: flex;
+     align-items:stretch;
+
+ }
+ .gmail{
+    color: black;
+    vertical-align: middle;
+    text-decoration: none;
+    
+ }
+ .gmail>a:link{
+     color: #202124;
+     text-decoration: none;
+ }
+ .gmail>a:visited{
+    color: black;
+    text-decoration: none;
+ }
+
+ .gmail>a:hover{
+    color: black;
+    text-decoration: underline;
+ }
+ .img{
+     
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+ }
+ .img:hover{
+     text-decoration: underline;
+ }
+.lc{
+    display: flex;
+    align-items: center;
+}
+.icon{
+   
+    height: 50px;
+    width:  50px;
+    background-image: url("icon.png");
+    background-repeat: no-repeat;
+}
+.icon:hover{
+    background-image: url("icon2.png");
+    background-repeat: no-repeat;
+    
+}
+.sign{
+    min-width: 96px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    border: 1px transparent;
+    box-sizing: border-box;
+    margin-left: 18px;
+    margin-right: 8px;
+    padding: 9px 23px 9px 23px ;
+    background-color: #1a73e8;
+    color: white;
+    font-family:Helvetica, Arial sans-serif;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    font-size: 14px;
+    position: static;  
+}
+.sign:hover{
+    background-color: #2B7DE9;
+}
+.logo{
+    
+    padding: 180px 0px 0px 0px;
+    background-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+    background-repeat: no-repeat;
+    background-size: 272px;
+    object-fit: contain;
+    background-position: bottom;
+    display:flex;
+    align-items: center;
+
+}
+.sch{
+    padding: 50px;
+    background-image: url("search.png");
+
+    background-repeat: no-repeat;
+    background-size: 630px;
+    width: auto ;
+    object-fit: contain;
+    background-position: center;
+    
+}
+.luck{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.goog {
+    width: 150px;
+    height: fit-content;
+    margin-right: 5px;
+    padding: 10px 20px;
+    background-color: #F7F7F7;
+    border: 1px transparent;
+    border-radius: 4px;
+}
+.goog:hover{
+    border: 1px solid #dfdfdf;
+}
+.lucky{
+    margin-left:5px ;
+    padding: 10px 20px;
+    background-color: #F7F7F7;
+    border: 1px transparent;
+    border-radius: 4px;
+}
+.lucky:hover{
+    border: 1px solid #dfdfdf;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C4043;
+    font-size:small;
+
+}
+
+.offer>a:link{
+ text-decoration:none
+}
+.offer>a:hover{
+    text-decoration: underline;
+}
+.offer>a:visited{
+    color:blue;
+}
+.ind{
+
+    vertical-align: center;
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757A;
+    text-indent: 40px;
+    height: 30px;
+    border-bottom: 1px #dfdfdf solid;
+    padding-top:  15px;
+}
+.bott{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.lik{
+    
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #70757A;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lik>div{
+    margin: 15px;
+}
